@@ -59,7 +59,6 @@ document.getElementById("searchBtn").addEventListener("click", () => {
     weatherContainer.style.display = "block";
     cityHeader.textContent = `${city}, ${country}`;
     temp.textContent = `Temperature: ${weather.temperature}°C`;
-    condition.textContent = `Condition: ${weatherCondition}`;
     windSpeed.textContent = `Wind Speed: ${weather.windspeed} km/h`;
   }
 
